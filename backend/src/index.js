@@ -4,7 +4,7 @@ const routes = require('./routes');
 
 const app = express();
 
-//option cors = origin: 'qualfrontend.com',
+//option cors = origin: 'qualfrontend.com'
 app.use(cors());
 app.use(express.json());
 app.use(routes);
