@@ -1,9 +1,13 @@
 import React from 'react';
 
+import './global.css';
+
+import Routes from './routes';
+
 function App() {
-  return (
-    <h1 id="title">Hello Be The Hero!</h1>
-  );
+    return ( 
+        <Routes />
+    );
 }
 
 export default App;
